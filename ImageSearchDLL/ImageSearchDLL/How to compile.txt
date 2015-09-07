@@ -1,0 +1,4 @@
+This DLL was built using 
+. Microsoft Visual C++ 2005 Express (a free compiler)
+	. Visual C++ 2005 Express SP1
+	. Windows Server 2003 R2 Platform SDK
