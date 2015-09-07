@@ -9,6 +9,6 @@ MyBot is open sourced under GNU GENERAL PUBLIC LICENSE v3
 http://www.gnu.org/licenses/gpl-3.0.txt
 
 Mybot use non-GPL 3rd party libraries for extension : 
-- OpenCV - BSD license - repository : https://github.com/MyBotRun/Libraries
+- OpenCV - BSD license - repository : https://github.com/Itseez/opencv
 - ImageSearch - GNU license - repository : https://github.com/MyBotRun/Libraries
 - Functional library CGBfunctions.dll - Proprietary library from de Developer Didipe 2015
