@@ -30,11 +30,11 @@
 ;       a desktop region to search
 ;
 ;===============================================================================
-Func _ImageSearch($findImage,$resultPosition,ByRef $x, ByRef $y,$tolerance, $HBMP=0)
+Func _ImageSearch($findImage,$resultPosition, ByRef $x, ByRef $y,$tolerance, $HBMP=0)
    return _ImageSearchArea($findImage,$resultPosition,0,0,@DesktopWidth,@DesktopHeight,$x,$y,$tolerance,$HBMP)
 EndFunc
 
-Func _ImageSearchArea($findImage,$resultPosition,$x1,$y1,$right,$bottom,ByRef $x, ByRef $y, $tolerance,$HBMP=0)
+Func _ImageSearchArea($findImage,$resultPosition,$x1,$y1,$right,$bottom, ByRef $x, ByRef $y, $tolerance,$HBMP=0)
 	;MsgBox(0,"asd","" & $x1 & " " & $y1 & " " & $right & " " & $bottom)
 
 	If IsString($findImage) Then
@@ -83,7 +83,7 @@ EndFunc
 ;
 ;
 ;===============================================================================
-Func _WaitForImageSearch($findImage,$waitSecs,$resultPosition,ByRef $x, ByRef $y,$tolerance,$HBMP=0)
+Func _WaitForImageSearch($findImage,$waitSecs,$resultPosition, ByRef $x, ByRef $y,$tolerance,$HBMP=0)
 	$waitSecs = $waitSecs * 1000
 	$startTime=TimerInit()
 	While TimerDiff($startTime) < $waitSecs
@@ -118,7 +118,7 @@ EndFunc
 ;
 ;
 ;===============================================================================
-Func _WaitForImagesSearch($findImage,$waitSecs,$resultPosition,ByRef $x, ByRef $y,$tolerance,$HBMP=0)
+Func _WaitForImagesSearch($findImage,$waitSecs,$resultPosition, ByRef $x, ByRef $y,$tolerance,$HBMP=0)
 	$waitSecs = $waitSecs * 1000
 	$startTime=TimerInit()
 	While TimerDiff($startTime) < $waitSecs
